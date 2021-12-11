@@ -1,0 +1,126 @@
+body {
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    font-family:helvetica;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    flex: 0 1 content;
+    font-size: 24px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.header-logo {
+    margin-left:100px;
+    font-family: helvetica;
+}
+
+.links-list {
+    flex: 0 1 content;
+    display:flex;
+    gap: 10px;
+    list-style:none;
+    margin-right: 100px;
+    font-family:Helvetica;
+    align-items:flex-start;
+    height:auto;
+    color: #E5E7EB;
+    text-decoration:none;
+}
+
+a {
+    text-decoration:none;
+    color: #E5E7EB;
+}
+.main {
+    flex:1;
+    display:flex;
+    flex-direction:column;
+}
+
+.b1 {
+    flex: 1.5;
+    border:2px solid red;
+    background-color: #1F2937;
+}
+
+.b2 {
+    flex: 1.5;
+    border:red 2px solid;
+    background-color: white;
+}
+
+
+.b3 {
+    flex: 1.2;
+    border: red 2px solid;
+    background-color: #E5E7EB;
+}
+
+.b4 {
+    flex: 1;
+    border: red 2px solid;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.sign-up {
+    background-color:#3882F6;
+    height:50%;
+    width:100%;
+    border-radius:5px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+
+}
+
+.sign-up-text {
+    margin-left: 100px;
+    color:white;
+    font-family:helvetica;
+}
+
+.mini-header {
+    font-weight:900;
+}
+.button {
+    height:25px;
+    width:100px;
+    border: 7px;
+    border: solid;
+    border-color: white;
+    border-radius:5px;
+    color:white;
+    background-color: #3882F6;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-right:100px;
+    font-size:12px;
+
+    
+}
+
+
+.footer {
+    background-color:#1F2937;
+    flex: 0 1 60px;
+    color: #F9FAF8;
+    display: flex;
+    font-size: 12px;
+    font-family: Sans-serif;
+    justify-content: center;
+    align-items: center;
+}
