@@ -52,13 +52,62 @@ a {
     flex: 1.5;
     border:red 2px solid;
     background-color: white;
+    display:flex;
+    padding-left: 200px;
+    padding-right:200px;
 }
 
+.image-container {
+    background-color:lightgreen;
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+}    
+.images {
+    height:100px;
+    width:100px;
+}
+.img-text {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.rounded-image {
+    border: solid black 1px;
+    border-radius:1px;
+    height:200px;
+    width:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    gap:10px;
+}
 
 .b3 {
     flex: 1.2;
     border: red 2px solid;
     background-color: #E5E7EB;
+    display:flex;
+    padding-left:200px;
+    padding-right:200px;
+}
+
+.testomonial {
+    flex:1;
+    font-size: 36px;
+    font-style:italic;
+    color:#1F2937;
+    
+}
+
+.customer {
+    display:flex;
+    justify-content:end;
+    font-weight:900;
 }
 
 .b4 {
